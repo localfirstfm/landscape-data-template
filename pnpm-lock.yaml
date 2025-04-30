@@ -1,0 +1,46 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@localfirstfm/landscape-schema':
+        specifier: 0.0.2
+        version: 0.0.2(effect@3.12.12)
+
+packages:
+
+  '@localfirstfm/landscape-schema@0.0.2':
+    resolution: {integrity: sha512-7UdzogjwZQ1mLW/cvjGwTy4gnNr3G84eTY0ouxCFusEva0Qhd9euuCVNXiVNKPsl9r5kiu4EIYMvqLykEBJ5jQ==}
+    peerDependencies:
+      effect: 3.12.x
+
+  effect@3.12.12:
+    resolution: {integrity: sha512-mBRET5ThCuWN/yZOGJRbJYMSWhH9fr3nfjFHpkbJIrH290WMWziFY7/fiQQGBTjtGgJOHlcfxEFMqtVOm8fygA==}
+
+  fast-check@3.23.2:
+    resolution: {integrity: sha512-h5+1OzzfCC3Ef7VbtKdcv7zsstUQwUDlYpUTvjeUsJAssPgLn7QzbboPtL5ro04Mq0rPOsMzl7q5hIbRs2wD1A==}
+    engines: {node: '>=8.0.0'}
+
+  pure-rand@6.1.0:
+    resolution: {integrity: sha512-bVWawvoZoBYpp6yIoQtQXHZjmz35RSVHnUOTefl8Vcjr8snTPY1wnpSPMWekcFwbxI6gtmT7rSYPFvz71ldiOA==}
+
+snapshots:
+
+  '@localfirstfm/landscape-schema@0.0.2(effect@3.12.12)':
+    dependencies:
+      effect: 3.12.12
+
+  effect@3.12.12:
+    dependencies:
+      fast-check: 3.23.2
+
+  fast-check@3.23.2:
+    dependencies:
+      pure-rand: 6.1.0
+
+  pure-rand@6.1.0: {}
